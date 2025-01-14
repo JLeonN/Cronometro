@@ -1,0 +1,42 @@
+/* Fuente de google */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap"); /* Tipografias */
+
+/* Restablecer valores a cero */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: var(--tipografiaGeneral);
+  font-size: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Variables CSS */
+:root {
+  --tipografiaNombre: "Protest Guerrilla", Arial, sans-serif;
+  --tipografiaGeneral: "Kanit", Arial, sans-serif;
+  /* Colores */
+  --FondoBody: #000; /* Negro */
+  --FondoNav: #1f1f1f; /* Gris oscuro */
+  --TituloH1: #4caf50; /* Verde brillante */
+  --Texto: #f5f5f5; /* Blanco */
+  --TextoLink: #2a9d8f; /* Verde azulado */
+  --ColorOpcion1: #264653; /* Azul petróleo */
+  --ColorOpcion2: #e63946; /* Rojo coral */
+  --ColorOpcion3: #f4a261; /* Naranja cálido */
+  --ColorOpcion4: #2ecc71; /* Verde esmeralda */
+  --Boton: #00cc99; /* Verde claro */
+  --BotonHover: #009973; /* Verde más oscuro */
+  --BotonActive: #006644; /* Verde oscuro para clics */
+  --Hover: #e63946; /* Rojo coral */
+  --Transparencia: #000000cc; /* Fondo negro con transparencia */
+  --SombraLigera: 0 4px 15px #00000080; /* Agrega una sombra ligera para que el modal resalte. */
+}
+
+body {
+  background-color: var(--FondoBody);
+  color: var(--Texto);
+}
+/* ------------------------------------------------------------------------- */
